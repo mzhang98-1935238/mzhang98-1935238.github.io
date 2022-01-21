@@ -1,0 +1,115 @@
+div {
+    background-color: #8e41d5;
+
+}
+
+body {
+    background-image: url('45degreee_fabric.png');
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+h3 {
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+}
+
+li {
+   
+}
+
+#Header{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(boarder.jpg) 30 round; /*new figure 3: boarder image*/
+    text-align: center;
+    text-shadow: 2px 2px white; /*new figure 2: text shadowing*/
+}
+
+#Header h1 {
+    font-size: 60px;
+    font-family: "Passion One", cursive;
+    color: #FFBC00;
+    font-weight: bold;
+}
+
+#LeftNav {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    float: left;
+    padding-bottom: 8px;
+    border-radius: 25px; /*new figure 1: round corners*/
+}
+
+#LeftNav img{ /*new figure 4: thumbnail image*/
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#LeftNav ul {
+    list-style-type: none;
+}
+
+#LeftNav h3 {
+    text-shadow: 2px 2px white; /*new figure 2: text shadowing*/
+}
+
+#Content {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px; /*new figure 1: round corners*/
+}
+
+#Footer{
+    border: solid 8px black;
+    text-align: center;
+    border-radius: 25px; /*new figure 1: round corners*/
+
+}
+
+#Footer h3 {
+    text-shadow: 2px 2px white; /*new figure 2: text shadowing*/
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+    font-size: 24px;
+}
+
+/*new figure 5: link styling*/
+/*visited link*/
+a:visited {
+    color: lightblue;
+}
+
+/*mouse over link*/
+a:hover {
+    color: rgb(247, 204, 210);
+}
